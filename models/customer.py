@@ -14,3 +14,19 @@ class Customer(Person):
         data = super().to_dict()
         data["accounts"]=",".join(self._accounts)
         return data
+
+    @classmethod
+    def from_dict(cls, data):
+        accounts = data.get("accounts", "")
+        accounts_list = accounts.split(",") if accounts else []
+
+        return cls(
+            data["id"],
+            data["name"],
+            int(data["age"]),
+            data["country"],
+            data["gaverment"],
+            data["gender"],
+            data["job"],
+            accounts_list
+        )
