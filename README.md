@@ -1,5 +1,7 @@
 Bank Management System
+
 OOP Desktop Application using Python & Tkinter
+
 
 📌 Overview
 
@@ -31,6 +33,7 @@ This project was developed as part of an OOP course to apply theoretical concept
 ✅ File-Based Data Persistence (TXT Storage)
 
 
+
 🧠 OOP Principles Applied
 
 
@@ -43,17 +46,20 @@ Controlled access via getter methods
 Transactions handled internally within Account
 
 
+
 🧬 Inheritance
 
 Customer inherits from Person
 
 SavingsAccount and CurrentAccount inherit from Account
 
+
 🔁 Polymorphism
 
 withdraw() method overridden in CurrentAccount
 
 Same method behaves differently depending on account type
+
 
 
 🎭 Abstraction
@@ -65,25 +71,19 @@ Business logic separated from UI
 File operations handled via helper functions
 
 
+
 🏗️ System Architecture
 
 GUI (Tkinter)
-
         ↓
-        
 BankService
-
         ↓
-        
 Models (Customer / Account / etc.)
-
         ↓
-        
 File Helpers
-
         ↓
-        
 TXT Storage
+
 
 
 📁 Project Structure
@@ -129,11 +129,13 @@ bank_system/
     ├── customers.txt
     
     └── accounts.txt
-    
+
+
 
 💾 Data Storage
 
 The system uses TXT files for data persistence.
+
 
 
 Example: customers.txt
@@ -143,7 +145,9 @@ id=1;name=Ahmed;age=30;country=Egypt;...
 Example: accounts.txt
 
 
+
 account_number=1001;customer_id=1;balance=500
+
 
 
 Helper functions used:
@@ -158,6 +162,7 @@ update_data()
 
 
 👨‍💻 Team Members & Responsibilities
+
 
 
 💳 Eng. Moamen
@@ -183,6 +188,7 @@ Overdraft handling
 Transaction auto-increment system
 
 
+
 👤 Eng. Mahmoud Ramadan
 
 Core System Developer
@@ -198,6 +204,7 @@ BankService
 Customer-Account linking logic
 
 
+
 🖥️ Eng. Mohamed Maghraby
 
 GUI Developer
@@ -209,6 +216,7 @@ Connected GUI to business logic
 Input validation and user interaction handling
 
 Helpers Functions For Files Architecture
+
 
 
 🚀 How to Run
