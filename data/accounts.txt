@@ -1,3 +1,6 @@
 account_number=102948530;customer_id=1;balance=90.0
 account_number=102938573;customer_id=2;balance=900.0
-account_number=35802342;customer_id=3;balance=0
+account_number=35802342;customer_id=3;balance=200.0
+account_number=325729834;customer_id=4;balance=650.0
+account_number=;customer_id=;balance=0
+account_number=345345345;customer_id=5;balance=500.0
