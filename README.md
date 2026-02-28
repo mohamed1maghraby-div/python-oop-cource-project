@@ -8,7 +8,10 @@ The system simulates a real-world banking environment and demonstrates the imple
 
 This project was developed as part of an OOP course to apply theoretical concepts in a practical.
 
+
 🎯 Features
+
+
 ✅ Add New Customer
 ✅ Create Bank Account
 ✅ Deposit Money
@@ -20,7 +23,9 @@ This project was developed as part of an OOP course to apply theoretical concept
 ✅ File-Based Data Persistence (TXT Storage)
 
 🧠 OOP Principles Applied
+
 🔒 Encapsulation
+
 Private attributes (_balance, _id, etc.)
 Controlled access via getter methods
 Transactions handled internally within Account
